@@ -73,7 +73,7 @@ Li et al.2022[[1](#reference)] 논문 구현 프로젝트
     - 또한, Li et al.2022[[1](#reference)] 에서는 실제로 유효 소비라고 볼 수 없는 소설들에 대해서도 추천하도록 학습이 진행됨. 이에 따라 실효성을 기대하기 어려울 것.
     - 추천 시스템 목적[[3](#reference)] 에 부합하며, 실효성을 충족시킬 수 있는 모델 개발 필요  
 
-[[프로젝트 포트폴리오 이동](https://github.com/namdo18/Portfolio)]
+###### [[프로젝트 포트폴리오 이동](https://github.com/namdo18/Portfolio)]
 </br>
 
 ## Reference
