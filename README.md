@@ -24,7 +24,7 @@ Li et al.2022[[1](#reference)] 논문 구현 프로젝트
 
 ### 핵심 알고리즘
 - `biGRU` 를 통한 세션 정보 시퀀스 인코딩
-    - 특징값 별로 개별 임베딩 레이어를 통해 벡터화
+    - 특징값별로 개별 임베딩 레이어를 통해 벡터화
     - 세션 단위로 임베딩 값 병합 후 `biGRU` 레이어를 통해 시퀀스 인코딩
         - 인코딩 시퀀스 $S = [\mathbf{h}_1, \mathbf{h}_2, \dots, \mathbf{h}_L], \quad \mathbf{h}_l = [\mathbf{\overset{\rightarrow}{h}}_l; \mathbf{\overset{\leftarrow}{h}}_l]$ 
         - 각 방향별 마지막 히든값 병합, $H = [\mathbf{\overset{\rightarrow}{h}}_L ; \mathbf{\overset{\leftarrow}{h}}_1]$
